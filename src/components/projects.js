@@ -16,6 +16,7 @@ function Projects(){
             </div>
             <div className='fitness-app'>
                 <a href='https://github.com/ft-anywhere-fitness-7/front-end'>Fitness App</a>
+                <img src='src/assets/fitness.png' alt='lady lifting weights'/>
                 <p>An app that allows users to register and login as either students or instructors</p>
                 <a className='site' href='front-end-fitness7.vercel.app'>Deployed site</a>
 

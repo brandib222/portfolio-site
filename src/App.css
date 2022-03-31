@@ -6,20 +6,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0% 4%;
+  padding: 0% 3%;
   background-image: url('https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHBpbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 50%;
-  margin: 2% 0%;
+  position: fixed;
+  z-index: 100;
+  top:0;
+  width: 95%;
 }  
 
+p {
+  font-size: 30px;
+}
+
 h1 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .projects {
@@ -39,7 +46,7 @@ img {
 
 a {
   text-decoration: none;
-  font-size: 45px;;
+  font-size: 30px;;
 }
 .recipes-app {
   background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
@@ -83,10 +90,6 @@ a {
   font-size: 30px;
 }
 
-.middle-container {
-  height: 100%;
-}
-
 .resume-container {
   height: 100%;
   background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
@@ -107,5 +110,25 @@ iframe {
 }
 
 .contact {
-  padding: 3%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-container {
+  padding: 10%;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-container img {
+  border-radius: 50%;
+  width: 40%;
+}
+.landing-container p {
+  border-radius: 10px;
+  width: 40%;
+  padding: 4%;
+  background-color: rgb(233, 183, 192);
 }
