@@ -1,7 +1,10 @@
 function Header(){
     
     return (
-        <div>This is where my header will go</div>
+        <div className='header'>
+            <h1>Brandi Ball</h1>
+            <p>Frontend Developer</p>
+        </div>
     )
 }
 
