@@ -277,6 +277,8 @@ iframe {
 
     .header-links {
       font-size: 15px;
+      display: flex;
+      justify-content: space-between;
     }
 
     .header a {
