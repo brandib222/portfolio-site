@@ -303,7 +303,8 @@ iframe {
     }
 
     .landing-container img {
-      width: 100%;
+      width: 200px;
+      height: 200px;
     }
 
      h2{
@@ -316,6 +317,9 @@ iframe {
       padding: 30% 1%;
     }
 
+    .contact {
+      padding: 30% 2%;
+    }
    
   }
 
