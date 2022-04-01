@@ -4,8 +4,8 @@ function Projects(){
 
     return (
         <div className='project-container'>
-        <div className='projects'>
             <h2> Recent Projects </h2>
+            <div className='projects'> 
                 <a href='https://github.com/brandib222/secret-family-recipes'>
                     <button className='recipes-app app-name'> Secret Family Recipes
                         <div className='tech-stack'>Tech Stack: Javascript, React.js, Node.js, Express, HTML, CSS
@@ -20,7 +20,6 @@ function Projects(){
                         </div>
                     </button>
                 </a>
-
                 <a href='https://github.com/ft-anywhere-fitness-7/front-end'>
                     <button className='fitness-app'> Fitness App
                         <div className='tech-stack'>Tech Stack: Javascript, React.js, Node.js, Express, HTML, css
@@ -29,7 +28,7 @@ function Projects(){
                     </button>
                     </a>
             </div>
-        </div>
+    </div>
     )
 }
 
