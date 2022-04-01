@@ -246,7 +246,7 @@ iframe {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-
+/*THIS IS A TEST*/
 .landing-links a {
   color:black;
   padding: 3%;
@@ -256,14 +256,11 @@ iframe {
   border-radius: 10px;
   background-color: rgb(226, 221, 221);
   }
-
   .landing-links a:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
       -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-
-      
   }
 
