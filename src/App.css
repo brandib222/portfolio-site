@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'BIZ UDMincho', serif;
 }
 
 .header {
@@ -7,33 +8,31 @@
   justify-content: space-between;
   align-items: center;
   padding: 0% 3%;
-/*background-image: url('https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHBpbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');*/
-  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 50%;
+  background-color: white;
+  
   position: fixed;
   z-index: 100;
   top:0;
   width: 95%;
-  color: white;
+  color: black;
 }  
 
 .header a {
-  color: white;
+  color: black;
+  font-size: 20px;
 }
 
 p {
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
   color:rgb(41, 39, 39);
   padding: 1%;
 }
@@ -45,15 +44,13 @@ img {
 
 a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   color:black;
 }
 
 button {
   font-size: 40px;
-  color:white;
-  background-color: black;
-  
+  color:white;  
 }
 
 .projects {
@@ -66,22 +63,22 @@ button {
 }
 
 .projects p {
-  color:rgb(41, 39, 39)
+  color:rgb(41, 39, 39);
+}
+
+.tech-stack {
+  font-size: 20px;
+  padding: 1%;
+  color: rgb(109, 102, 102);
 }
 
 .tech-stack p {
   color: white;
-}
-
-.tech-stack {
-  font-size: 30px;
-  padding: 1%;
-  color: rgb(109, 102, 102);;
-
+  font-size: 20px;
 }
 
 .recipes-app {
-  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 100%;
@@ -103,7 +100,7 @@ button {
 }
 
 .nasa-app {
-  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 80%;
@@ -126,7 +123,7 @@ button {
 }
 
 .fitness-app {
-  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 80%;
@@ -154,7 +151,7 @@ button {
 
 .resume-container {
   height: 100%;
-  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 80%;
@@ -197,10 +194,11 @@ iframe {
   align-items: center;
   flex-direction: row;
 
-  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 95%;
+  background-size:cover;
+  background-position-y: 10%;
+  background-position-x: 90%
 
 }
 
@@ -219,13 +217,11 @@ iframe {
   flex-direction: column;
   justify-content: space-evenly;
   
-  color:white;  
   }
 
 
 .intro {
   padding: 5%;
-  font-size: 30px;
 }
 
 .skills {
@@ -251,14 +247,14 @@ iframe {
   50% { border-color: orange; }
 }
 
-  .landing-links a {
-    color:black;
-    padding: 3%;
-    margin: 3% 1%;
-    display:flex;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    background-color: rgb(247, 241, 241);
+.landing-links a {
+  color:black;
+  padding: 3%;
+  margin: 3% 1%;
+  display:flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: rgb(226, 221, 221);
   }
 
   .landing-links a:hover {
