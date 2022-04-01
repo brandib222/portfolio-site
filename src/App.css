@@ -162,8 +162,7 @@ button {
 iframe {
   width: 800px;
   height: 1000px;
-  overflow-y: auto;
-  overflow-x: auto;
+  overflow: hidden;
   resize: both;
   position: relative;
   z-index: 2;
@@ -309,6 +308,12 @@ iframe {
 
      h2{
       padding: 15% 10% 1% 10%;
+    }
+
+    iframe {
+      width: 355px;
+      height: 500px;
+      padding: 30% 1%;
     }
 
    
