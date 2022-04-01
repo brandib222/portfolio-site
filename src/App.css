@@ -15,10 +15,15 @@
   z-index: 100;
   top:0;
   width: 95%;
+  color: rgb(87, 59, 87);
 }  
 
+.header a {
+  color: white;
+}
+
 p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h1 {
@@ -27,6 +32,23 @@ h1 {
 
 h2 {
   font-size: 30px;
+}
+
+img {
+  border-radius: 10px;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color:rgb(87, 59, 87);
+}
+
+button {
+  font-size: 50px;
+  color:rgb(87, 59, 87);
+  
 }
 
 .projects {
@@ -39,15 +61,13 @@ h2 {
   margin: 3%;
 }
 
-img {
-  border-radius: 10px;
-  width: 70%;
+.tech-stack {
+  font-size: 30px;
+  padding: 1%;
+  color: white;
+
 }
 
-a {
-  text-decoration: none;
-  font-size: 30px;;
-}
 .recipes-app {
   background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
@@ -58,6 +78,15 @@ a {
   background-position-y: 50%;
   margin: 1% 4%;
   border-radius: 10px;
+  border:none;
+}
+
+.recipes-app:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
 .nasa-app {
@@ -70,7 +99,15 @@ a {
   background-position-y: 10%;
   margin: 1% 4%;
   border-radius: 10px;
+  border:none;
+}
 
+.nasa-app:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
 .fitness-app {
@@ -83,7 +120,15 @@ a {
   background-position-y: 50%;
   margin: 1% 4%;
   border-radius: 10px;
+  border:none;
+}
 
+.fitness-app:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
 .site {
@@ -110,25 +155,115 @@ iframe {
 }
 
 .contact {
-  padding: 1%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
 }
 
 .landing-container {
-  padding: 10%;
+  padding: 12% 5%;
   font-size: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: rgb(87, 59, 87);
+
 }
 
 .landing-container img {
   border-radius: 50%;
-  width: 40%;
+  width: 30%;
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  
 }
-.landing-container p {
-  border-radius: 10px;
-  width: 40%;
-  padding: 4%;
+
+.right-side {
+  width:35%;
+  padding: 5%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+
+@-webkit-keyframes shadow-pop-tr {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes shadow-pop-tr {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
+
+
+.intro {
+  padding: 5%;
   background-color: rgb(233, 183, 192);
+  font-size: 30px;
 }
+
+.skills {
+
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+  .landing-links a {
+    color:white;
+    padding: 3%;
+    margin: 3% 1%;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: rgb(87, 59, 87);
+  }
+
+  .landing-links a:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  }

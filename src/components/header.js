@@ -1,8 +1,6 @@
 import '../App.css';
-import Projects from './projects';
-import Resume from './resume';
+
 import { Link } from 'react-router-dom';
-import { Routes, Route} from 'react-router-dom';
 
 
 function Header(){
@@ -14,6 +12,8 @@ function Header(){
             <Link to='/'>Home</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/resume'>Resume</Link>
+            <Link to='/contact'>Contact</Link>
+
         </div>
     )
 }
