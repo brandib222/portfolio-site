@@ -7,7 +7,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0% 3%;
- background-image: url('https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHBpbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+/*background-image: url('https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHBpbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');*/
+  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 50%;
@@ -15,7 +16,7 @@
   z-index: 100;
   top:0;
   width: 95%;
-  color: rgb(87, 59, 87);
+  color: white;
 }  
 
 .header a {
@@ -24,14 +25,17 @@
 
 p {
   font-size: 20px;
+  color: white;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
+  color:rgb(41, 39, 39);
+  padding: 1%;
 }
 
 img {
@@ -42,12 +46,13 @@ img {
 a {
   text-decoration: none;
   font-size: 30px;
-  color:rgb(87, 59, 87);
+  color:black;
 }
 
 button {
   font-size: 40px;
-  color:rgb(87, 59, 87);
+  color:white;
+  background-color: black;
   
 }
 
@@ -60,18 +65,26 @@ button {
   margin: 3%;
 }
 
+.projects p {
+  color:rgb(41, 39, 39)
+}
+
+.tech-stack p {
+  color: white;
+}
+
 .tech-stack {
   font-size: 30px;
   padding: 1%;
-  color: white;
+  color: rgb(109, 102, 102);;
 
 }
 
 .recipes-app {
-  background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position-y: 100%;
   padding: 10%;
   box-shadow: 10px;
   background-position-y: 50%;
@@ -90,13 +103,13 @@ button {
 }
 
 .nasa-app {
-  background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position-y: 80%;
   padding: 10%;
   box-shadow: 10px;
-  background-position-y: 10%;
+  background-position-y: 50%;
   margin: 1% 4%;
   border-radius: 10px;
   border:none;
@@ -113,10 +126,10 @@ button {
 }
 
 .fitness-app {
-  background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position-y: 80%;
   padding: 10%;
   box-shadow: 10px;
   background-position-y: 50%;
@@ -141,10 +154,12 @@ button {
 
 .resume-container {
   height: 100%;
-  background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: 80%;
   padding: 3%;
+  
 }
 
 iframe {
@@ -156,22 +171,36 @@ iframe {
   position: relative;
   z-index: 2;
   border:none;
+  padding: 5%;
 }
 
 .contact {
-  padding: 5%;
+  padding: 3%;
   display: flex;
   flex-direction: column;
+  
+}
+
+.contact p {
+  color: black;
+}
+
+.contact a {
+  color: black;
 }
 
 .landing-container {
-  padding: 12% 5%;
+  padding: 7% 5%;
   font-size: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  color: rgb(87, 59, 87);
+
+  background-image: url('https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 95%;
 
 }
 
@@ -184,11 +213,13 @@ iframe {
 }
 
 .right-side {
-  width:35%;
+  width:50%;
   padding: 5%;
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
+  
+  color:white;  
   }
 
 
@@ -198,15 +229,14 @@ iframe {
 }
 
 .skills {
-
-overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
@@ -222,13 +252,13 @@ overflow: hidden; /* Ensures the content is not revealed until the animation */
 }
 
   .landing-links a {
-    color:white;
+    color:black;
     padding: 3%;
     margin: 3% 1%;
     display:flex;
     justify-content: space-evenly;
     border-radius: 10px;
-    background-color: rgb(87, 59, 87);
+    background-color: rgb(247, 241, 241);
   }
 
   .landing-links a:hover {
