@@ -346,14 +346,21 @@ iframe {
     }
     
     .landing-container {
-      padding: 45% 10%;
+      padding: 40% 5%;
       display: flex;
       flex-direction: column;
-    }
+      justify-content: center;
+
+  }
 
     .landing-container img {
       width: 200px;
       height: 200px;
+    }
+
+    .landing-links a{
+      padding: 5% 40%;
+      margin: 4% 20% 0% 0%; 
     }
 
      h2{
