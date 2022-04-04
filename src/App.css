@@ -3,6 +3,7 @@
   font-family: 'BIZ UDMincho', serif;
 }
 
+/* Arranges content correctly on the page */
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +11,7 @@
   padding: 0% 10%;
   background-color: white;
   
+  /* Keeps header at the top of the page */
   position: fixed;
   z-index: 100;
   top:0;
@@ -17,47 +19,63 @@
   color: black;
 }  
 
+/* Spacing around links */
 .header-links {
   padding: 0% 10%;
 }
 
+/* Styling the links */
 .header a {
   color: black;
   font-size: 20px;
   padding: 5%;
 }
 
+/* Styling the name */
 .header h1 {
   font-size: 50px;
 }
 
+/* Underline when hovering over links */
+.header a:hover {
+  cursor: pointer;
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+/* Paragraphs include welcome page info, app descriptions (projects), 'Frontend Developer' in header */
 p {
   font-size: 20px;
   color: black;
 }
 
+/* h2 includes the top of resume */
 h2 {
   font-size: 60px;
   color:rgb(41, 39, 39);
   padding: 1%;
 }
 
+/* landing page photo styling */
 img {
   border-radius: 10px;
   width: 70%;
 }
 
+/* All links */
 a {
   text-decoration: none;
   font-size: 40px;
   color:black;
 }
 
+/* Project links are buttons */
 button {
   font-size: 40px;
   color:white;  
 }
 
+/* Everything on the project page */
 .project-container {
   display: flex;
   flex-direction: column;
@@ -67,16 +85,19 @@ button {
   margin: 2%;
 }
 
+/* App descriptions, not including tech stack */
 .project-container p {
   color:rgb(41, 39, 39);
 }
 
+/* App names */
 .project-container h2 {
   padding: 1% 2% 0% 2%;
 
 background: rgb(236, 193, 223);
 }
 
+/* Technologies used */
 .tech-stack {
   font-size: 20px;
   padding: 1%;
@@ -189,10 +210,11 @@ iframe {
 }
 
 .contact {
-  padding: 3%;
+  padding: 10% 40%;
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  
+  width: 25%;
 }
 
 .contact p {
@@ -201,6 +223,12 @@ iframe {
 
 .contact a {
   color: black;
+}
+
+.contact a:hover {
+  cursor: pointer;
+    transform: translateY(-5px);
+    text-decoration: underline;
 }
 
 .landing-container {
@@ -266,12 +294,13 @@ iframe {
 /*THIS IS A TEST*/
 .landing-links a {
   color:black;
-  padding: 3%;
-  margin: 3% 1%;
+  padding: 3% 10%;
+  margin: 3% 25%;
   display:flex;
   justify-content: space-evenly;
   border-radius: 10px;
-  background-color: rgb(226, 221, 221);
+  background-color: aliceblue;
+  width: 25%;
   }
   .landing-links a:hover {
     cursor: pointer;
