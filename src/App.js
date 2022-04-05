@@ -26,3 +26,9 @@ function App() {
 }
 
 export default App;
+
+// Advice from HD :
+  // Take the birds off of everything
+  // Update project descriptions and include photos on site
+  // Fill up more space
+  // Simplify header/ make it smaller
