@@ -384,7 +384,7 @@ iframe {
         display: flex;
         flex-flow: column wrap;
         padding: 30% 5%;
-        background-color: #52C46E;
+        background-color: rgb(203, 221, 237);
         width: 100;
       }
     
