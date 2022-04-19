@@ -72,7 +72,10 @@ a {
 /* Project links are buttons */
 button {
   font-size: 40px;
-  color:white;  
+  color:aliceblue;
+  background-color: rgb(7, 12, 15);
+  filter: drop-shadow(10px 20px 5px #52C46E);
+  opacity: 50%;
 }
 
 /* Everything on the project page */
@@ -111,7 +114,7 @@ button {
 }
 
 .recipes-app {
-  background-color: rgb(7, 12, 15);
+  background-color: rgb(32, 55, 69);
   padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
@@ -127,10 +130,11 @@ button {
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
       -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+    opacity: 100%;
 }
 
 .nasa-app {
-  background-color: rgb(7, 12, 15);
+  background-color: rgb(32, 55, 69);
 
   padding: 5%;
   box-shadow: 10px;
@@ -148,10 +152,12 @@ button {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  opacity: 100%;
+
 }
 
 .fitness-app {
-  background-color: rgb(7, 12, 15);
+  background-color: rgb(32, 55, 69);
 
   padding: 5%;
   box-shadow: 10px;
@@ -169,6 +175,8 @@ button {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  opacity: 100%;
+
 }
 
 .site {
@@ -200,15 +208,14 @@ iframe {
 }
 
 .contact {
-  padding: 10% 10%;
+  padding: 10% 30%;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
-  width: 15%;
-
-  margin: 0% 30%;
   border-radius: 10px;
   border:none;
+  background-color:#52C46E;
+  opacity: 50%;
 }
 
 .contact p {
@@ -223,7 +230,7 @@ iframe {
   cursor: pointer;
     transform: translateY(-5px);
     text-decoration: underline;
-}
+  }
 
 .landing-container {
   padding: 7% 5%;
@@ -240,6 +247,8 @@ iframe {
 .landing-container img {
   border-radius: 3px;
   width: 25%;
+  filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
+
 }
 
 .right-side {
@@ -280,13 +289,16 @@ iframe {
 /*THIS IS A TEST*/
 .landing-links a {
   color:aliceblue;
+  background-color: rgb(32, 55, 69);
+  filter: drop-shadow(10px 20px 5px #52C46E);
   padding: 3% 10%;
   margin: 3% 25%;
   display:flex;
   justify-content: space-evenly;
   border-radius: 5px;
-  background-color: rgb(7, 12, 15);
   width: 25%;
+  opacity: 50%;
+
   }
   .landing-links a:hover {
     cursor: pointer;
@@ -294,6 +306,7 @@ iframe {
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
       -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+    opacity: 100%;
   }
 
 /* START OF MEDIA QUERIES*/
@@ -316,7 +329,6 @@ iframe {
 
     .header a {
       color: white;
-      background-color: rgb(219, 197, 240);
       border-radius: 10px;
       padding: 1% 5%;
     }
@@ -364,13 +376,16 @@ iframe {
     .contact {
       display: flex;
       flex-flow: column wrap;
-      padding: 30% 15%;
-      background-color: aliceblue;
+      padding: 30% 5%;
+      background-color: #52C46E;
+      width: 100;
     }
    
   }
 
   /*END OF MEDIA QUERIES*/
+
+  /*START OF ANIMATION*/
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
