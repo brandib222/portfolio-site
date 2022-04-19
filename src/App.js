@@ -9,17 +9,16 @@ import Projects from './components/projects';
 import Resume from './components/resume';
 import LandingPage from './components/landingPage';
 
-
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route exact path='/' element={<LandingPage/>} />
         <Route exact path='/projects' element={<Projects/>} />
         <Route exact path='/resume' element={<Resume/>} />
         <Route exact path='/contact' />
       </Routes>
-      <Header />
       <Footer />
     </div>
   );
