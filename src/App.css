@@ -74,8 +74,8 @@ button {
   font-size: 40px;
   color:aliceblue;
   background-color: rgb(7, 12, 15);
-  filter: drop-shadow(10px 20px 5px #52C46E);
-  opacity: 50%;
+  filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
+  opacity: 90%;
 }
 
 /* Everything on the project page */
@@ -214,8 +214,8 @@ iframe {
   flex-flow: column wrap;
   border-radius: 10px;
   border:none;
-  background-color:#52C46E;
-  opacity: 50%;
+  background-color:rgb(203, 221, 237);
+  opacity: 70%;
 }
 
 .contact p {
@@ -290,7 +290,6 @@ iframe {
 .landing-links a {
   color:aliceblue;
   background-color: rgb(32, 55, 69);
-  filter: drop-shadow(10px 20px 5px #52C46E);
   padding: 3% 10%;
   margin: 3% 25%;
   display:flex;
@@ -400,7 +399,7 @@ svg {
    left: -600px;
     top: -600px;
   display: block;
-  filter: drop-shadow(10px 20px 5px #52C46E);
+  filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
   transition: left 0.5s, top 0.5s;
 }
 
