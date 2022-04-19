@@ -378,6 +378,18 @@ iframe {
         width:100%;
       }
 
+      .recipes-app {
+        width: 80%;
+      }
+
+      .nasa-app {
+        width: 80%;
+      }
+
+      .fitness-app {
+        width: 80%;
+      }
+
       iframe {
         width: 355px;
         height: 500px;
