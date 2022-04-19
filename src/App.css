@@ -374,6 +374,10 @@ iframe {
 
       }
 
+      .projects-container {
+        width:100%;
+      }
+
       iframe {
         width: 355px;
         height: 500px;
