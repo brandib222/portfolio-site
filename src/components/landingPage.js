@@ -1,8 +1,11 @@
 import '../App.css';
 
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function LandingPage(){
+
     return (
         <div className='landing-container'>
             <img src='https://avatars.githubusercontent.com/u/91443920?v=4' alt='profile pic'/>

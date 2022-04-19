@@ -83,6 +83,8 @@ button {
   padding: 3% 1%;
   border-radius: 10px;
   margin: 2%;
+  background-color: aliceblue;
+
 }
 
 /* App descriptions, not including tech stack */
@@ -94,14 +96,13 @@ button {
 .project-container h2 {
   padding: 1% 2% 0% 2%;
 
-background: rgb(236, 193, 223);
 }
 
 /* Technologies used */
 .tech-stack {
   font-size: 20px;
   padding: 1%;
-  color: rgb(109, 102, 102);
+  color:rgb(211, 169, 169);
 }
 
 .tech-stack p {
@@ -110,16 +111,14 @@ background: rgb(236, 193, 223);
 }
 
 .recipes-app {
-  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10%;
+  background-color: rgb(7, 12, 15);
+  padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
   margin: 1% 4%;
-  border-radius: 10px;
+  border-radius: 5px;
   border:none;
-  width: 60%;
+  width: 30%;
 }
 
 .recipes-app:hover {
@@ -131,16 +130,15 @@ background: rgb(236, 193, 223);
 }
 
 .nasa-app {
-  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10%;
+  background-color: rgb(7, 12, 15);
+
+  padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
   margin: 1% 4%;
-  border-radius: 10px;
+  border-radius: 5px;
   border:none;
-  width: 60%;
+  width: 30%;
 
 }
 
@@ -153,16 +151,15 @@ background: rgb(236, 193, 223);
 }
 
 .fitness-app {
-  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10%;
+  background-color: rgb(7, 12, 15);
+
+  padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
   margin: 1% 4%;
-  border-radius: 10px;
+  border-radius: 5px;
   border:none;
-  width: 60%;
+  width: 30%;
 
 }
 
@@ -180,18 +177,14 @@ background: rgb(236, 193, 223);
 
 .resume-container {
   height: 100%;
-  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 80%;
+  background-color: aliceblue;
+
   padding: 3%;
   
 }
 .resume-header {
   padding: 5% 2% 0% 2%;
   margin: 2%;
-  background: rgb(236, 193, 223);
-
   
 }
 
@@ -236,21 +229,17 @@ iframe {
   padding: 7% 5%;
   font-size: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
 
-  background-image: url('https://64.media.tumblr.com/8899da7898ba952c14af77e2d7e5b24a/bbb4a2cfa7d72978-e9/s2048x3072_c5500,0,94400,100000/51630017779e15d643ec9745e6b166b419adc652.gif');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position-y: 10%;
-  background-position-x: 90%
+  background-color: aliceblue;
 
 }
 
 .landing-container img {
-  border-radius: 50%;
-  width: 30%;
+  border-radius: 3px;
+  width: 25%;
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
       -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
   
@@ -294,13 +283,13 @@ iframe {
 }
 /*THIS IS A TEST*/
 .landing-links a {
-  color:black;
+  color:rgb(219, 201, 201);
   padding: 3% 10%;
   margin: 3% 25%;
   display:flex;
   justify-content: space-evenly;
-  border-radius: 10px;
-  background-color: aliceblue;
+  border-radius: 5px;
+  background-color: rgb(7, 12, 15);
   width: 25%;
   }
   .landing-links a:hover {
@@ -380,6 +369,7 @@ iframe {
       display: flex;
       flex-flow: column wrap;
       padding: 30% 15%;
+      background-color: aliceblue;
     }
    
   }
