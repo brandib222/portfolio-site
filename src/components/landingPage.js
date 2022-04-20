@@ -23,7 +23,7 @@ function LandingPage(){
                             <p> React </p>
                             <p> Redux </p>
                             <p> CSS </p>
-                            <p> Html </p>
+                            <p> HTML </p>
                             <p> Restful APIs </p>
                             <p> Axios </p>
                         </div>

@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Routes, Route} from 'react-router-dom';
+import { useEffect } from 'react';
 
 import Header from './components/header';
 import Footer from './components/footer';
@@ -10,6 +11,11 @@ import Resume from './components/resume';
 import LandingPage from './components/landingPage';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Portfolio Site';
+  })
+
   return (
     <div className="App">
       <Header />
