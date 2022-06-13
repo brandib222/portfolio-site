@@ -6,7 +6,8 @@ function LandingPage(){
 
     return (
         <div className='landing-container'>
-            <img src='https://avatars.githubusercontent.com/u/91443920?v=4' alt='profile pic'/>
+            <img src='https://avatars.githubusercontent.com/u/91443920?v=4' alt='profile pic' className='profile-pic'/>
+
             <div className='right-side'>
                 <div className='intro'>
                     <p className='skills'> Javascript React SQL Node.Js</p>
@@ -17,7 +18,7 @@ function LandingPage(){
                     <Link to='/resume'>Resume</Link>
                 </div>
             </div>
-            <ul className='all-skills-container'>
+            <div className='all-skills-container'>
                         <div className='frontend-skills'>Frontend:
                             <p> Javascript </p>
                             <p> React </p>
@@ -34,7 +35,7 @@ function LandingPage(){
                             <p> Express </p>
                             <p> Python </p>
                         </div>
-                    </ul>
+                    </div>
         </div>
     )
 }
