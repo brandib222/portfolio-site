@@ -76,6 +76,9 @@ button {
   background-color: rgb(7, 12, 15);
   filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
   opacity: 90%;
+  display:flex;
+  justify-content: center;
+  width:90%;
 }
 
 /* Everything on the project page */
@@ -83,14 +86,35 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 7% 1%;
   border-radius: 10px;
-  margin: 2%;
+  margin: 2% 0%;
   background-color: aliceblue;
+  width:100%;
+}
 
+
+.projects {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+}
+
+.project {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* App descriptions, not including tech stack */
+
 .project-container p {
   color:rgb(41, 39, 39);
 }
@@ -126,7 +150,7 @@ button {
 }
 
 .recipes-app {
-  background-color: rgb(32, 55, 69);
+  background-color: rgb(90, 148, 184);
   padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
@@ -146,7 +170,7 @@ button {
 }
 
 .nasa-app {
-  background-color: rgb(32, 55, 69);
+  background-color: rgb(90, 148, 184);
 
   padding: 5%;
   box-shadow: 10px;
@@ -169,7 +193,7 @@ button {
 }
 
 .fitness-app {
-  background-color: rgb(32, 55, 69);
+  background-color: rgb(90, 148, 184);
 
   padding: 5%;
   box-shadow: 10px;
