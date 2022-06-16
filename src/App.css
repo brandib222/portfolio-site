@@ -10,6 +10,7 @@
   align-items: center;
   padding: 0% 10%;
   background-color: white;
+
   
   /* Keeps header at the top of the page */
   position: fixed;
@@ -395,7 +396,7 @@ iframe {
 
       .landing-container img {
         border-radius: 3px;
-        width: 40%;
+        width: 20%;
         filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
       
       }
