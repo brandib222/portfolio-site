@@ -450,7 +450,7 @@ iframe {
         display: flex;
         flex-flow: column wrap;
         padding: 30% 5%;
-        background-color: #E3DFFF;
+        background-color: aliceblue;
         width: 100;
       }
 
