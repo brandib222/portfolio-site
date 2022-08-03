@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Roboto&display=swap');
+
+body {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
 .App {
   text-align: center;
-  font-family: 'BIZ UDMincho', serif;
 }
 
 /* Arranges content correctly on the page */
@@ -19,6 +24,11 @@
   width: 85%;
   color: black;
 }  
+
+.header img {
+  height:150px;
+  width:150px;
+}
 
 /* Spacing around links */
 .header-links {
@@ -102,7 +112,6 @@ button {
   justify-content: center;
   align-items: center;
   margin: 2%;
-  border-radius: 10px;
   width: 100%;
   border: none;
 }
@@ -134,7 +143,7 @@ button {
 .tech-stack {
   font-size: 20px;
   padding: 1%;
-  color:rgb(211, 169, 169);
+  color:aliceblue;
 }
 
 .tech-stack p {
@@ -150,26 +159,6 @@ button {
   font-size: 30px;
 }
 
-.recipes-app {
-  background-color: rgb(90, 148, 184);
-  padding: 5%;
-  box-shadow: 10px;
-  background-position-y: 50%;
-  margin: 1% 4%;
-  border-radius: 5px;
-  border:none;
-  width: 30%;
-}
-
-.recipes-app:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-    opacity: 100%;
-}
-
 .nasa-app {
   background-color: rgb(90, 148, 184);
 
@@ -177,43 +166,41 @@ button {
   box-shadow: 10px;
   background-position-y: 50%;
   margin: 1% 4%;
-  border-radius: 5px;
+  border-radius: 2px;
   border:none;
-  width: 30%;
-
+  width: 70%;
 }
 
-.nasa-app:hover {
-  cursor: pointer;
-  transform: translateY(-5px);
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-  opacity: 100%;
-
+.nasa-app img {
+  width:400px;
+  height:400px;
 }
 
 .fitness-app {
   background-color: rgb(90, 148, 184);
-
   padding: 5%;
   box-shadow: 10px;
   background-position-y: 50%;
   margin: 1% 4%;
-  border-radius: 5px;
+  border-radius: 2px;
   border:none;
-  width: 30%;
-
+  width: 70%;
 }
 
-.fitness-app:hover {
-  cursor: pointer;
-  transform: translateY(-5px);
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-  opacity: 100%;
+.fitness-app img {
+  width:700px;
+  height:400px;
+}
 
+.recipes-app {
+  background-color: rgb(90, 148, 184);
+  padding: 5%;
+  box-shadow: 10px;
+  background-position-y: 50%;
+  margin: 1% 4%;
+  border-radius: 2px;
+  border:none;
+  width: 70%;
 }
 
 .site {
@@ -245,14 +232,14 @@ iframe {
 }
 
 .contact {
-  padding: 10% 30%;
+  padding: 15% 30%;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   border-radius: 10px;
   border:none;
-  background-color:rgb(203, 221, 237);
-  opacity: 70%;
+  background-color: aliceblue;
+  /* opacity: 90%; */
 }
 
 .contact p {
@@ -276,7 +263,7 @@ iframe {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  background-color: aliceblue;
+  background-color: rgb(224, 238, 251);
 
 }
 
@@ -340,15 +327,15 @@ iframe {
   }
 
   .landing-links a {
-    color:aliceblue;
-    background-color: rgb(32, 55, 69);
+    color:white;
+    background-color: black;
     padding: 3% 10%;
     margin: 3% 0%;
     display:flex;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 25%;
-    opacity: 50%;
+    opacity: 90%;
 
     }
     .landing-links a:hover {
@@ -453,7 +440,7 @@ iframe {
         display: flex;
         flex-flow: column wrap;
         padding: 30% 5%;
-        background-color: rgb(203, 221, 237);
+        background-color: #E3DFFF;
         width: 100;
       }
 

@@ -33,7 +33,6 @@ function LandingPage(){
                             <p> PostgreSQL </p>
                             <p> Node.js </p>
                             <p> Express </p>
-                            <p> Python </p>
                         </div>
                     </div>
         </div>

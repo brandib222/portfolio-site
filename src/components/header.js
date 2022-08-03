@@ -1,5 +1,4 @@
 import '../App.css';
-
 import { Link } from 'react-router-dom';
 import Animation from './animation';
 
@@ -8,6 +7,7 @@ function Header(){
     return (
         <div className='header'>
             <Animation />
+            {/* <img src='../assets/goldLogo.svg' alt='Brandi Ball Web Designer'/> */}
             <h1>Brandi Ball</h1>
             <p>Frontend Developer</p>
             {/*<div className='header-links'>
