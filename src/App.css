@@ -396,8 +396,8 @@ iframe {
 
       .landing-container img {
         border-radius: 3px;
-        width: 20%;
-        height: 20%;
+        width: 90px;
+        height: 90px;
         filter: drop-shadow(10px 20px 5px rgb(203, 221, 237));
       
       }
